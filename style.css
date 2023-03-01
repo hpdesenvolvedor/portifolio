@@ -239,24 +239,17 @@ P.descricaopj {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #3e7587;
     
+    
 }
 
-.gallery-img .buttonproj:hover {
-	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-	background-color:#408c99;
-}
 .buttonproj:active {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-	top:2px;
+   	top:2px;
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: var(--gap);
-    counter-reset: grid-counter;
+    align-items: center;
 }
 
 
@@ -264,8 +257,7 @@ P.descricaopj {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    min-height: 100vh;
-    
+    min-height: 100vh; 
 }
 
 .grid-main-heading {
@@ -288,7 +280,16 @@ P.descricaopj {
     margin-left: 40px;
     width: 400px;
     height: 400px;
-    overflow: hidden;        
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+            
+}
+
+.gallery-img .buttonproj:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
 }
 
 .gallery-img img {
